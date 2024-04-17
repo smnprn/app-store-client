@@ -1,4 +1,5 @@
 body {
+    font-family: "Poppins", sans-serif;
     margin: 0;
 }
 
@@ -8,7 +9,6 @@ header {
 }
 
 #header_title {
-    font-family: "Poppins", sans-serif;
     font-weight: 600;
     font-style: normal;
     font-size: 20px;
@@ -16,28 +16,28 @@ header {
 }
 
 #search_container {
-    margin: 50px;
+    display: inline-block;
+    margin: 50px 50px 50px 100px;
+    width: 40%;
 }
 
-#search_app_title {
-    font-family: "Poppins", sans-serif;
+.second_lv_title {
     font-weight: 600;
     font-style: normal;
     font-size: 40px;
 }
 
 #button_container {
-    margin-left: 50px;
+    margin-top: 20px;
 }
 
 #search_button {
     border: 0;
     border-radius: 10px;
     background-color: #6d31ed;
-    width: 7%;
-    padding: 10px;
+    min-width: 35%;
+    padding: 20px;
     color: white;
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
@@ -48,23 +48,46 @@ header {
 }
 
 #search_bar {
-    width: 20%;
-    font-family: "Poppins", sans-serif;
+    min-width: 70%;
     font-weight: 400;
     font-style: normal;
     font-size: 20px;
 }
 
+#filter_container {
+    display: inline-block;
+    margin: 50px;
+    width: 40%;
+}
+
+.filter_option_container {
+    display: block;
+    margin-top: 10px;
+}
+
+.free_radio {
+    accent-color: #6d31ed;
+}
+
 #response_container {
-    border: 2px solid rgba(202, 202, 202, 0.82);
     margin: 50px;
     padding: 50px;
-    font-family: "Poppins", sans-serif;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
 }
 
-#http_response {
+#http_response_table {
     display: none;
+    border-collapse: collapse;
+    text-align: center;
+}
+
+td, th {
+    border: 2px solid rgba(202, 202, 202, 0.82);
+    padding: 25px;
+}
+
+tr:hover {
+    background-color: rgba(239, 239, 239, 0.47);
 }
