@@ -6,6 +6,8 @@ body {
 header {
     box-shadow: rgba(202, 202, 202, 0.82) 0 10px 5px -6px;
     padding: 10px;
+    background-color: #5522c1;
+    color: white;
 }
 
 #header_title {
@@ -71,10 +73,13 @@ header {
 
 #response_container {
     margin: 50px;
-    padding: 50px;
     font-weight: 400;
     font-style: normal;
     font-size: 15px;
+}
+
+#table_header {
+    background-color: rgba(239, 239, 239, 0.47);
 }
 
 #http_response_table {
@@ -89,5 +94,5 @@ td, th {
 }
 
 tr:hover {
-    background-color: rgba(239, 239, 239, 0.47);
+    background-color: rgba(230, 230, 230, 0.82);
 }

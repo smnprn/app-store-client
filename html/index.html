@@ -36,10 +36,10 @@
                     <label for="rating">Rating:</label>
                     <select id="rating" name="rating">
                         <option value="" selected></option>
-                        <option value="4%2B">4+</option>
-                        <option value="9%2B">9+</option>
-                        <option value="12%2B">12+</option>
-                        <option value="17%2B">17+</option>
+                        <option value="4+">4+</option>
+                        <option value="9+">9+</option>
+                        <option value="12+">12+</option>
+                        <option value="17+">17+</option>
                     </select>
                 </div>
 
@@ -88,20 +88,26 @@
 
     <div id="response_container">
         <table id="http_response_table">
+            <thead>
+                <tr id="table_header">
+                    <th>App id</th>
+                    <th>Name</th>
+                    <th>URL</th>
+                    <th>Genre</th>
+                    <th>Content Rating</th>
+                    <th>Size</th>
+                    <th>Required iOS Version</th>
+                    <th>Price</th>
+                    <th>Developer</th>
+                    <th>User Rating</th>
+                    <th>Reviews</th>
+                </tr>
+            </thead>
+            <tbody id="table_body">
+
+            </tbody>
             <tr>
-                <th>App id</th>
-                <th>Name</th>
-                <th>URL</th>
-                <th>Genre</th>
-                <th>Content Rating</th>
-                <th>Size</th>
-                <th>Required iOS Version</th>
-                <th>Price</th>
-                <th>Developer</th>
-                <th>User Rating</th>
-                <th>Reviews</th>
-            </tr>
-            <tr>
+                <!--
                 <td id="id_d"></td>
                 <td id="name_d"></td>
                 <td id="url_d"></td>
@@ -113,6 +119,7 @@
                 <td id="dev_d"></td>
                 <td id="usrrat_d"></td>
                 <td id="revw_d"></td>
+                -->
             </tr>
         </table>
     </div>
