@@ -4,6 +4,8 @@ body {
 }
 
 header {
+    display: flex;
+    justify-content: space-between;
     box-shadow: rgba(202, 202, 202, 0.82) 0 10px 5px -6px;
     padding: 10px;
     background-color: #5522c1;
@@ -15,6 +17,17 @@ header {
     font-style: normal;
     font-size: 20px;
     margin-left: 30px;
+    width: 15%;
+}
+
+#github_logo {
+    width: 30px;
+    margin-right: 30px;
+}
+
+#github_link {
+    display: flex;
+    justify-content: center;
 }
 
 #search_container {

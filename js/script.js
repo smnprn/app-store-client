@@ -9,8 +9,8 @@ let genreSelect = document.getElementById("genre");
 let freeCheckbox = document.getElementById("free");
 let paidCheckbox = document.getElementById("paid");
 
-const API_ENDPOINT = "http://localhost:8080/api/v0.1/apps?";
-const token = "eyJhbGciOiJSUzI1NiJ9.eyJpc3MiOiJzZWxmIiwic3ViIjoiZGFyaW9tb2NjaWFAZW1haWwuY29tIiwiZXhwIjoxNzEzOTEyMTM2LCJzY29wZSI6IlVTRVIifQ.QYybs_i-1VCQ9nq6CY-cUFsSgSgGw2I5yi20T6w6Jdlhq9I-F_OGpyAxcsFx9F3owb9_Nu9VPLSx9CCQB4GEvgTqNlV0HHK83YLwACgmr_xf8iwbYxT7c1skYsMNfWuaJuJeDmtOB1Hc_RViJJZ9VZ57TP6mY7dGgummulwDdmb93glb6sIl13igdlmanc8Z42Umho4i6loEW6Hu7WALLd1sMo9cw_gsbgdCX_7m5GAaYPeIm8AGFr3fzhJJ0zgn40F3DdBEhzRNo43n2kEbjiHvPWjwVUMOhbx6wwRLpL18xsfAZYqQSbu1RhUqGov-w1QGKAF51x0wWsOPxYTTQg"
+const API_ENDPOINT = "http://localhost:8080/api/v0.1/apps?"; // Developing endpoint, to be replaced in production
+const token = ""; // Replace with user token
 
 // Set checkbox behavior
 freeCheckbox.addEventListener("change", function () {
